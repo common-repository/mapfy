@@ -1,0 +1,140 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Generator: babel-plugin-makepot\n"
+
+#: src/blocks/mapfy/Inspector.js:108
+msgid "Disable Zoom Scroll"
+msgstr ""
+
+#: src/blocks/mapfy/Inspector.js:116
+msgid "Zoom"
+msgstr ""
+
+#: src/blocks/mapfy/Inspector.js:124
+msgid "Marker"
+msgstr ""
+
+#: src/blocks/mapfy/Inspector.js:126
+msgid "Custom Marker"
+msgstr ""
+
+#: src/blocks/mapfy/Inspector.js:154
+msgid "Tooltip"
+msgstr ""
+
+#: src/blocks/mapfy/Inspector.js:191
+msgid "Image"
+msgstr ""
+
+#: src/blocks/mapfy/Inspector.js:212
+msgid "Width"
+msgstr ""
+
+#: src/blocks/mapfy/Inspector.js:235
+msgid "XYZ Tiles"
+msgstr ""
+
+#: src/blocks/mapfy/Inspector.js:251
+msgid "Attribution"
+msgstr ""
+
+#: src/blocks/mapfy/Inspector.js:82
+#: src/blocks/mapfy/components/EditorMarkers.js:46
+msgid "Latitude"
+msgstr ""
+
+#: src/blocks/mapfy/Inspector.js:91
+#: src/blocks/mapfy/components/EditorMarkers.js:53
+msgid "Longitude"
+msgstr ""
+
+#: src/blocks/mapfy/Inspector.js:99
+msgid "Map height"
+msgstr ""
+
+#: src/blocks/mapfy/components/Addmarker.js:31
+msgid "Add marker"
+msgstr ""
+
+#: src/blocks/mapfy/components/Addmarker.js:37
+msgid "Add new marker"
+msgstr ""
+
+#: src/blocks/mapfy/components/Autocomplete/Autocomplete.js:15
+msgid "Loading..."
+msgstr ""
+
+#: src/blocks/mapfy/components/EditorMarkers.js:111
+msgid "Tooltip Width"
+msgstr ""
+
+#: src/blocks/mapfy/components/EditorMarkers.js:154
+msgid "Save & Close"
+msgstr ""
+
+#: src/blocks/mapfy/components/EditorMarkers.js:179
+msgid "Location"
+msgstr ""
+
+#: src/blocks/mapfy/components/EditorMarkers.js:183
+msgid ""
+"This text will not be displayed on the web, it is to facilitate the "
+"identification of the marker."
+msgstr ""
+
+#: src/blocks/mapfy/components/EditorMarkers.js:61
+msgid "Content"
+msgstr ""
+
+#: src/blocks/mapfy/components/EditorMarkers.js:64
+msgid "You can use html tags"
+msgstr ""
+
+#: src/blocks/mapfy/components/ListMarkers.js:70
+msgid "Edit Marker"
+msgstr ""
+
+#: src/blocks/mapfy/components/MediaUpload/MediaUploadControl.js:64
+msgid "Insert Image"
+msgstr ""
+
+#: src/blocks/mapfy/components/providers.js:14
+msgid "Street Map"
+msgstr ""
+
+#: src/blocks/mapfy/components/providers.js:22
+msgid "WorldImagery"
+msgstr ""
+
+#: src/blocks/mapfy/components/providers.js:30
+msgid "Black And White"
+msgstr ""
+
+#: src/blocks/mapfy/components/providers.js:38
+msgid "Grayscale"
+msgstr ""
+
+#: src/blocks/mapfy/components/providers.js:45
+msgid "Dark Matter"
+msgstr ""
+
+#: src/blocks/mapfy/components/providers.js:53
+msgid "Mapnik"
+msgstr ""
+
+#: src/blocks/mapfy/components/providers.js:6
+msgid "Voyager"
+msgstr ""
+
+#: src/blocks/mapfy/components/providers.js:60
+msgid "Watercolor"
+msgstr ""
+
+#: src/blocks/mapfy/components/search/index.js:65
+msgid "Search for a location"
+msgstr ""
+
+#: src/blocks/mapfy/components/search/index.js:71
+msgid "No Location matches found"
+msgstr ""

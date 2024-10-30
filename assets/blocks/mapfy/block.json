@@ -1,0 +1,99 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "mapfy/mapfy",
+  "version": "1.0.0",
+  "title": "Mapfy - Map Block",
+  "category": "embed",
+  "description": "Allows embed maps in your contents, good alternative to Google Maps without the need for api key",
+  "keywords": [
+    "map",
+    "leaflet"
+  ],
+  "attributes": {
+    "markers": {
+      "type": "array",
+      "default": []
+    },
+    "searchText": {
+      "type": "string",
+      "default": ""
+    },
+    "lat": {
+      "type": "number",
+      "default": 40.416775
+    },
+    "lng": {
+      "type": "number",
+      "default": -3.70379
+    },
+    "zoom": {
+      "type": "number",
+      "default": 15
+    },
+    "height": {
+      "type": "number",
+      "default": 220
+    },
+    "themeId": {
+      "type": "number",
+      "default": 1
+    },
+    "themeUrl": {
+      "type": "string",
+      "default": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
+    },
+    "themeAttribution": {
+      "type": "string",
+      "default": "&copy; <a href=\"http: //www.openstreetmap.org/copyright\">OpenStreetMap</a> &copy; <a href=\"https://carto.com/attribution\">CARTO</a>"
+    },
+    "disableScrollZoom": {
+      "type": "boolean",
+      "default": true
+    },
+    "tooltipContent": {
+      "type": "string",
+      "default": "text"
+    },
+    "content": {
+      "type": "string",
+      "default": ""
+    },
+    "tooltipWidth": {
+      "type": "number",
+      "default": 150
+    },
+    "imgId": {
+      "type": "number"
+    },
+    "imgUrl": {
+      "type": "string"
+    },
+    "imgAlt": {
+      "type": "string"
+    },
+    "markerImg": {
+      "type": "object",
+      "default": {}
+    }
+  },
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "alignWide": true
+  },
+  "textdomain": "mapfy",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:../../admin/css/mapfy-editor.min.css",
+  "style": [
+    "mapfy-leaflet",
+    "mapfy-leaflet-fullscreen"
+  ],
+  "viewScript": [
+    "mapfy-leaflet",
+    "mapfy-leaflet-fullscreen"
+  ]
+}
